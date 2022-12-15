@@ -1,1 +1,1 @@
-# goit-markup-hw-02
+https://kubautecht.github.io/goit-markup-hw-02/
