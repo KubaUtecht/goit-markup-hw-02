@@ -3,33 +3,59 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=>, initial-scale=1.0" />
-    <title>hw2-porfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hw2 - portfolio</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https: //fonts.googleapis.com/css2?family= Roboto & display rodzina= Raleway:wght@700 &rodzina= Roboto:waga@400;500;700;900 & swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <a href="index.html">WebStudio</a>
+      <a href="index.html" class="logo"
+        ><span class="web-logo">Web</span>Studio</a
+      >
       <nav>
         <ul>
-          <li><a href="index.html">Agencja</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="/">Kontakt</a></li>
+          <li><a href="agencja.html" class="nav">Agencja</a></li>
+          <li><a href="portfolio.html" class="nav">Portfolio</a></li>
+          <li><a href="#" class="nav">Kontakt</a></li>
         </ul>
       </nav>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+      <a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a>
 
-      <a href="48111111111">+48 111 111 111</a>
+      <a href="48111111111" class="contact">+48 111 111 111</a>
     </header>
+
     <main>
       <ul>
-        <li><button type="button">Wszystkie</button></li>
-        <li><button type="button">Strony</button></li>
-        <li><button type="button">Aplikacje</button></li>
-        <li><button type="button">Dizajn</button></li>
-        <li><button type="button">Marketing</button></li>
+        <li>
+          <button type="button" class="button-portfolio">
+            <b>Wszystkie</b>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="button-portfolio"><b>Strony</b></button>
+        </li>
+        <li>
+          <button type="button" class="button-portfolio">
+            <b>Aplikacje</b>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="button-portfolio"><b>Dizajn</b></button>
+        </li>
+        <li>
+          <button type="button" class="button-portfolio">
+            <b>Marketing</b>
+          </button>
+        </li>
       </ul>
 
-      <ul>
+      <ul class="project-name">
         <li>
           <figure>
             <img
@@ -38,7 +64,9 @@
               width="370"
               height="294"
             />
-            <figcaption>Technocrack Strona internetowa</figcaption>
+            <figcaption>
+              Technocrack<span class="type-project"> Strona internetowa</span>
+            </figcaption>
           </figure>
         </li>
 
@@ -50,7 +78,11 @@
               width="370"
               height="294"
             />
-            <figcaption>Grafika New Orlean vs Golden Star Dizajn</figcaption>
+            <figcaption>
+              Grafika New Orlean vs Golden Star<span class="type-project">
+                Dizajn</span
+              >
+            </figcaption>
           </figure>
         </li>
 
@@ -62,7 +94,9 @@
               width="370"
               height="294"
             />
-            <figcaption>Restauracja Seafood Aplikacja</figcaption>
+            <figcaption>
+              Restauracja Seafood <span class="type-project"> Aplikacja</span>
+            </figcaption>
           </figure>
         </li>
         <li>
@@ -73,7 +107,9 @@
               width="370"
               height="294"
             />
-            <figcaption>Projekt Prime Marketing</figcaption>
+            <figcaption>
+              Projekt Prime<span class="type-project"> Marketing</span>
+            </figcaption>
           </figure>
         </li>
 
@@ -85,7 +121,9 @@
               width="370"
               height="294"
             />
-            <figcaption>Projekt Boxes Aplikacja</figcaption>
+            <figcaption>
+              Projekt Boxes<span class="type-project"> Aplikacja</span>
+            </figcaption>
           </figure>
         </li>
 
@@ -98,7 +136,8 @@
               height="294"
             />
             <figcaption>
-              Inspiration has no Borders Strona internetowa
+              Inspiration has no Borders
+              <span class="type-project"> Strona internetowa</span>
             </figcaption>
           </figure>
         </li>
@@ -111,7 +150,9 @@
               width="370"
               height="294"
             />
-            <figcaption>Magazyn Limited Edition Dizajn</figcaption>
+            <figcaption>
+              Magazyn Limited Edition<span class="type-project"> Dizajn</span>
+            </figcaption>
           </figure>
         </li>
         <li>
@@ -122,7 +163,9 @@
               width="370"
               height="294"
             />
-            <figcaption>Projekt LAB Marketing</figcaption>
+            <figcaption>
+              Projekt LAB<span class="type-project"> Marketing</span>
+            </figcaption>
           </figure>
         </li>
         <li>
@@ -133,26 +176,22 @@
               width="370"
               height="294"
             />
-            <figcaption>Growing Business Aplikacja</figcaption>
+            <figcaption>Growing Business <span> Aplikacja</span></figcaption>
           </figure>
         </li>
       </ul>
     </main>
-    <footer>
-      <a
-        href="https://www.figma.com/file/E88QGCZJKqWb5ot7iqUCHF/Zadanie-domowe-GOIT-Polska-(Copy)?node-id=0%3A1&t=kSD4tQ2zaeOa9cv9-0"
-        >WebStudio</a
+    <footer class="background">
+      <a href="index.html" class="logo-footer"
+        ><span class="web">Web</span>Studio</a
       >
       <address>
-        <p>
-          m. Warszawa,<br />
-          Aleje Jerozolimskie 21
-        </p>
-      </address>
-      <address>
-        <a href="mailto:info@example.com">info@example.com</a>
+        <p class="place">m. Warszawa, Aleje Jerozolimskie 21</p>
+        <a href="mailto:info@devstudio.com" class="link-footer"
+          >info@devstudio.com</a
+        >
 
-        <a href="48111111111">+48 111 111 111</a>
+        <a href="48111111111" class="link-footer">+48 111 111 111</a>
       </address>
     </footer>
   </body>
