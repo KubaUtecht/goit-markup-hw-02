@@ -15,27 +15,39 @@ body {
   cursor: pointer;
 }
 
-.web-logo {
-  color: #2196f3;
-}
-
-a:hover,
-a:focus {
+.logo:hover,
+.logo:focus {
   color: #2196f3;
   text-decoration: none;
 }
 
-.nav {
+.web-logo {
+  color: #2196f3;
+}
+
+.link {
   font-weight: 500;
   font-size: 14px;
   color: #212121;
   font-family: Roboto;
 }
 
+.link:hover,
+.link:focus {
+  color: #2196f3;
+  text-decoration: none;
+}
+
 .contact {
   font-weight: 500;
   font-size: 14px;
   color: #757575;
+}
+
+.contact:hover,
+.contact:focus {
+  color: #2196f3;
+  text-decoration: none;
 }
 
 .background {
@@ -87,9 +99,10 @@ a:focus {
   color: #ffffff;
 }
 
-.secondary-title {
+.secondary-head {
   font-weight: 700;
   font-size: 36px;
+  color: #212121;
 }
 
 .personal-data {
@@ -110,6 +123,12 @@ a:focus {
   color: #ffffff;
 }
 
+.logo-footer:hover,
+.logo-footer:focus {
+  color: #2196f3;
+  text-decoration: none;
+}
+
 .place {
   font-size: 14px;
   color: #ffffff;
@@ -118,6 +137,12 @@ a:focus {
 .link-footer {
   font-size: 14px;
   color: #ffffff;
+}
+
+.link-footer:hover,
+.link-footer:focus {
+  color: #2196f3;
+  text-decoration: none;
 }
 .project-name {
   font-weight: 700;
