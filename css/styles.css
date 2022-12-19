@@ -1,5 +1,5 @@
 body {
-  font-family: Roboto, Raleway sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #212121;
 }
 
@@ -8,7 +8,7 @@ body {
 }
 
 .logo {
-  font-family: Raleway;
+  font-family: "Raleway";
   font-weight: 700;
   font-size: 26;
   color: #000000;
@@ -42,7 +42,7 @@ a:focus {
   background-color: var(--colorBackground);
 }
 
-p {
+.text {
   font-size: 14px;
   font-weight: 400;
   color: #757575;
@@ -87,7 +87,7 @@ p {
   color: #ffffff;
 }
 
-h2 {
+.secondary-title {
   font-weight: 700;
   font-size: 36px;
 }
